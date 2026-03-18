@@ -74,7 +74,7 @@ class for_loop{
         for(int i = 0;num > 0;i++){
             digit = num % 10;
             num = num / 10;
-            rev = digit + rev * 10;
+            rev = digit +  rev * 10;
         }
         System.out.println(rev);
         if(rev == temp){
