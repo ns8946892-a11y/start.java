@@ -67,21 +67,72 @@ class for_loop{
 
         // 9. Check whether number is palindrome or not.
 
-        int rev = 0;
-        int num = 121;
-        int temp = num;
+        // int rev = 0;
+        // int num = 121;
+        // int temp = num;
+        // int digit = 0;
+        // for(int i = 0;num > 0;i++){
+        //     digit = num % 10;
+        //     num = num / 10;
+        //     rev = digit +  rev * 10;
+        // }
+        // System.out.println(rev);
+        // if(rev == temp){
+        //     System.out.println("Number is palindrome : "+rev);
+        // }
+        // else{
+        //     System.out.println("Number is not palindrome! ");
+        // }
+
+        // 10.Find sum of digits of a number.
+
+        // int num = 1234;
+        // int sum = 0;
+        // int digit = 0;
+        // for(int i = 0;num > 0;i++){
+        //     digit = num % 10;
+        //     num = num / 10;
+        //     sum = digit + sum;
+        // }
+        // System.out.println(sum);
+
+        // 11. Find product of digits.
+
+        // int product = 1;
+        // int num = 42;
+        // int digit = 1;
+        // for(;num > 0;num = num / 10){
+        //     digit = num % 10;
+        //     product = digit * product;
+        // }
+        // System.out.println(product);
+
+        // 12.Find largest digit in a number.
+
+        // int digit = 0;
+        // int large = 0;
+        // int num = 8976;
+        // for(;num > 0;num = num / 10){
+        //     digit = num % 10;
+        
+        //     if(digit > large){
+        //         large = digit;
+        //     } 
+        // }
+        // System.out.println("Largest number is : "+large);
+
+        // 13.Find smallest digit in a number.
+
+        int num = 6789;
         int digit = 0;
-        for(int i = 0;num > 0;i++){
+        int small = 9;
+        for(;num > 0;num = num / 10){
             digit = num % 10;
-            num = num / 10;
-            rev = digit +  rev * 10;
+
+            if(digit < small){
+                small = digit;
+            }
         }
-        System.out.println(rev);
-        if(rev == temp){
-            System.out.println("Number is palindrome : "+rev);
-        }
-        else{
-            System.out.println("Number is not palindrome! ");
-        }
+        System.out.println("Smallest number is : "+small);
     }
 }
