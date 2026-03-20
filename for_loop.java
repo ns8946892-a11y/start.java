@@ -123,16 +123,21 @@ class for_loop{
 
         // 13.Find smallest digit in a number.
 
-        int num = 8976;
-        int digit =  0;
-        int small  = 9;
-        for(;num > 0;num = num / 10){
-            digit = num % 10;
+        // int num = 8976;
+        // int digit =  0;
+        // int small  = 9;
+        // for(;num > 0;num = num / 10){
+        //     digit = num % 10;
 
-            if(digit < small){
-                small = digit;
-            }
-        }
-        System.out.println("Smallest number is : "+small);
+        //     if(digit < small){
+        //         small = digit;
+        //     }
+        // }
+        // System.out.println("Smallest number is : "+small);
+
+        // 14. Check Armstrong number
+
+        
+
     }
 }
