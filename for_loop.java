@@ -143,7 +143,7 @@ class for_loop{
         int power = 0;
         int digit = 0;
         int count = 0;
-        for(;num > 0;num = num / 10){
+        for(;num > 0;num =  num / 10){
             count = count + 1;
         }
         // System.out.println(count);
