@@ -137,7 +137,22 @@ class for_loop{
 
         // 14. Check Armstrong number
 
-        
+        int num = 153;
+        int real_num = 153;
+        int sum = 0;
+        int power = 0;
+        int digit = 0;
+        int count = 0;
+        for(;num > 0;num = num / 10){
+            count = count + 1;
+        }
+        // System.out.println(count);
+        // for(;count > 0;){
+        // digit = num % 10;
+        // System.out.println(Math.pow(digit,count));
+        // }
+        // power = count;
+        // System.out.println(power);
 
     }
 }
